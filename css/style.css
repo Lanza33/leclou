@@ -1125,9 +1125,9 @@ main.legal ul, main.legal ol { list-style-position: outside; padding-left: 1.2em
 .footer__sz--m { display: none; }
 @media (min-width: 761px) { .footer__sz--side { margin-top: 10px; } }
 @media (max-width: 760px) {
-  .footer .wrap { grid-template-areas: "logo partner" "desc desc" "contact quick" "social social" "sz sz" "bottom bottom"; }
+  .footer .wrap { grid-template-areas: "logo partner" "desc desc" "contact quick" "sz sz" "social social" "bottom bottom"; }
   .footer__sz--side { display: none; }
-  .footer .footer__brand > .footer__sz--m { display: block; grid-area: sz; justify-self: center; margin: 10px 0 12px; }
+  .footer .footer__brand > .footer__sz--m { display: block; grid-area: sz; justify-self: start; margin: 4px 0 0; }
 }
 
 /* Gutscheine mobil: Text vor dem Foto */
