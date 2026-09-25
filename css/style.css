@@ -1129,3 +1129,6 @@ main.legal ul, main.legal ol { list-style-position: outside; padding-left: 1.2em
   .footer__sz--side { display: none; }
   .footer .footer__brand > .footer__sz--m { display: block; grid-area: sz; justify-self: center; margin: 10px 0 12px; }
 }
+
+/* Gutscheine mobil: Text vor dem Foto */
+@media (max-width: 860px) { .gift .row__media { order: 2; } }
