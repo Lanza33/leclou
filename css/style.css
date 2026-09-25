@@ -1128,6 +1128,7 @@ main.legal ul, main.legal ol { list-style-position: outside; padding-left: 1.2em
   .footer .wrap { grid-template-areas: "logo partner" "desc desc" "contact quick" "sz sz" "social social" "bottom bottom"; }
   .footer__sz--side { display: none; }
   .footer .footer__brand > .footer__sz--m { display: block; grid-area: sz; justify-self: start; margin: 4px 0 0; }
+  .footer__brand .footer__reviews { grid-area: sz; align-self: center; margin: 4px 0 0; }
 }
 
 /* Gutscheine mobil: Text vor dem Foto */
