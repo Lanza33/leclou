@@ -933,6 +933,8 @@ div.promo__card:hover img { transform: none; }
 }
 /* Mobile-Footer: Copyright-Zeile näher an die Icons */
 @media (max-width: 760px) { .footer__bottom { margin-top: -12px; } }
+/* Mobile-Footer: längere Copyright-Zeile darf umbrechen statt abzuschneiden */
+@media (max-width: 760px) { .footer__bottom .footer__legal { white-space: normal; } }
 
 /* ===== Ganze Website: Texte zentriert ===== */
 main { text-align: center; }
